@@ -1,0 +1,10 @@
+{
+  "azureFunctions.deploySubpath": "msg-responder/azure_function",
+  "azureFunctions.postDeployTask": "npm install (functions)",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.projectSubpath": "msg-responder/azure_function",
+  "azureFunctions.preDeployTask": "npm prune (functions)",
+  "cmake.configureOnOpen": false
+}

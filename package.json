@@ -1,0 +1,17 @@
+{
+  "name": "midjourney-grabber-bot",
+  "module": "index.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
